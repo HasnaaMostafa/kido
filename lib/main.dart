@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/onboarding/presentation/views/onboarding_view.dart';
+import 'features/create_account/presentation/views/create_account_view.dart';
 
 void main() {
   runApp(const KidoApp());
@@ -17,7 +17,7 @@ class KidoApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnBoardingView(),
+      home: const CreateAccountView(),
     );
   }
 }
